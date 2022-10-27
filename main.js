@@ -151,7 +151,7 @@ chart = ForceGraph(data, {
   nodeGroup: (d) => d.group,
   nodeTitle: (d) => `${d.id}\n${d.group}`,
   linkStrokeWidth: (l) => Math.sqrt(l.value),
-  width: 1920,
+  width: 3840,
   height: 1080,
 })
 
